@@ -10,8 +10,7 @@ const contextData=useContext(context)
 const {getMovies,movies}=contextData
 
 useEffect(()=>{
-  getMovies(API_URL) 
-   
+  getMovies(API_URL)   
 },[])
 
 
