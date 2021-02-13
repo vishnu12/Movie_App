@@ -41,7 +41,7 @@ body{
 }
 
 .search-btn:active{
-  outline: none;
+  outline: none !important;
 }
 
 .footer{

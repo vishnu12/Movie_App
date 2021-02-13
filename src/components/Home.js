@@ -12,7 +12,7 @@ const {getMovies,movies}=contextData
 useEffect(()=>{
   getMovies(API_URL) 
    
-},[getMovies])
+},[])
 
 
 
